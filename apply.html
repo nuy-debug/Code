@@ -45,7 +45,7 @@
         .register-container {
             background: rgba(20, 20, 20, 0.95);
             backdrop-filter: blur(20px);
-            border: 2px solid rgba(0, 82, 255, 0.3);
+            border: 2px solid rgba(255, 215, 0, 0.3);
             border-radius: 25px;
             padding: 40px;
             width: 100%;
@@ -76,7 +76,7 @@
         .register-title {
             font-size: 2.8rem;
             font-weight: bold;
-            background: linear-gradient(45deg, #008AFF, #008AFF, #008AFF);
+            background: linear-gradient(45deg, #ffd700, #ffed4e, #ffd700);
             background-size: 200% 200%;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -104,7 +104,7 @@
         }
 
         .login-link:hover {
-            color: #008AFF;
+            color: #ffed4e;
             text-decoration: underline;
         }
 
@@ -128,7 +128,7 @@
         .form-label {
             display: block;
             margin-bottom: 8px;
-            color: #008AFf;
+            color: #ffd700;
             font-weight: 500;
             font-size: 0.9rem;
         }
@@ -137,7 +137,7 @@
             width: 100%;
             padding: 15px 20px;
             background: rgba(30, 30, 30, 0.8);
-            border: 2px solid rgba(0, 102, 255, 0.3);
+            border: 2px solid rgba(255, 215, 0, 0.3);
             border-radius: 12px;
             color: #fff;
             font-size: 1rem;
@@ -146,8 +146,8 @@
         }
 
         .form-input:focus {
-            border-color: #008AFf;
-            box-shadow: 0 0 20px rgba(0, 82, 255, 0.3);
+            border-color: #ffd700;
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
             transform: translateY(-2px);
         }
 
@@ -170,7 +170,7 @@
             transform: translateY(-50%);
             background: none;
             border: none;
-            color: #008AFf;
+            color: #ffd700;
             cursor: pointer;
             font-size: 1.1rem;
             padding: 5px;
@@ -178,14 +178,14 @@
         }
 
         .password-toggle:hover {
-            color: #008AFF;
+            color: #ffed4e;
         }
 
         .form-select {
             width: 100%;
             padding: 15px 20px;
             background: rgba(30, 30, 30, 0.8);
-            border: 2px solid rgba(008AFF255
+            border: 2px solid rgba(255, 215, 0, 0.3);
             border-radius: 12px;
             color: #fff;
             font-size: 1rem;
@@ -195,8 +195,8 @@
         }
 
         .form-select:focus {
-            border-color: #008AFF;
-            box-shadow: 0 0 20px #008AFF;
+            border-color: #ffd700;
+            box-shadow: 0 0 20px rgba(255, 215, 0, 083);
         }
 
         .form-select option {
@@ -223,7 +223,7 @@
             appearance: none;
             width: 20px;
             height: 20px;
-            border: 2px solid #008Aff;
+            border: 2px solid #ffd700;
             border-radius: 4px;
             position: relative;
             cursor: pointer;
@@ -233,7 +233,7 @@
         }
 
         .checkbox-item input[type="checkbox"]:checked {
-            background: #008AFF;
+            background: #ffd700;
         }
 
         .checkbox-item input[type="checkbox"]:checked::after {
@@ -247,13 +247,13 @@
         }
 
         .checkbox-item a {
-            color: #008AFD;
+            color: #ffd700;
             text-decoration: none;
             transition: color 0.3s ease;
         }
 
         .checkbox-item a:hover {
-            color: #008AFF;
+            color: #ffed4e;
             text-decoration: underline;
         }
 
@@ -286,7 +286,7 @@
         .register-button {
             width: 100%;
             padding: 16px;
-            background: linear-gradient(45deg, #008AFF, #008AFF);
+            background: linear-gradient(45deg, #ffd700, #ffed4e);
             border: none;
             border-radius: 12px;
             color: #000;
@@ -300,9 +300,8 @@
 
         .register-button:hover {
             transform: translateY(-3px);
-            box-shadow: 0 15px 35px rgba(0, 57, 255, 0.4);
+            box-shadow: 0 15px 35px rgba(255, 215, 0, 0.4);
         }
-
 
         .register-button:active {
             transform: translateY(-1px);
@@ -336,14 +335,14 @@
         }
 
         .login-link-bottom a {
-            color: #008AFF;
+            color: #ffd700;
             text-decoration: none;
             font-weight: 500;
             transition: color 0.3s ease;
         }
 
         .login-link-bottom a:hover {
-            color: #008AFF;
+            color: #ffed4e;
             text-decoration: underline;
         }
 
@@ -351,13 +350,13 @@
             display: none;
             text-align: center;
             margin-top: 20px;
-            color: #008AFf;
+            color: #ffd700;
         }
 
         .spinner {
-            border: 3px solid 008AFF255, 215, 0, 0.3);
+            border: 3px solid rgba(255, 215, 0, 0.3);
             border-radius: 50%;
-            border-top: 3px solid #008AFF;
+            border-top: 3px solid #ffd700;
             width: 35px;
             height: 35px;
             animation: spin 1s linear infinite;
@@ -426,7 +425,7 @@
     <div class="register-container">
         <div class="register-header">
             <h1 class="register-title">สมัครสมาชิก</h1>
-            <p class="register-subtitle">เริ่มต้นการเทรดกับเรา</p>
+            <p class="register-subtitle">เริ่มต้นการช็อปปิ้งกับเรา</p>
             <p class="register-subtitle">มีบัญชีอยู่แล้ว? <a href="login.htm" class="login-link" onclick="goToLogin()">เข้าสู่ระบบ</a></p>
         </div>
 
@@ -451,9 +450,19 @@
 
             <div class="form-group">
                 <label for="username" class="form-label">ชื่อผู้ใช้งาน *</label>
-                <input type="text" id="username" name="username" class="form-input" placeholder="ชื่อผู้ใช้งาน" required minlength="4"
-                
-       
+                <input type="text" id="username" name="username" class="form-input" placeholder="ชื่อผู้ใช้งาน" required minlength="4">
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="phone" class="form-label">เบอร์โทรศัพท์ *</label>
+                    <input type="tel" id="phone" name="phone" class="form-input" placeholder="08X-XXX-XXXX" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                </div>
+                <div class="form-group">
+                    <label for="birthDate" class="form-label">วันเกิด</label>
+                    <input type="date" id="birthDate" name="birthDate" class="form-input">
+                </div>
+            </div>
 
             <div class="form-group">
                 <label for="gender" class="form-label">เพศ</label>
